@@ -19,7 +19,7 @@ setup(
     packages=find_packages(exclude=["test*"]),
     install_requires=[
         "boto3==1.14.47",
-        "cryptography==2.9.2",
+        "cryptography==44.0.0",
         "ipaddress==1.0.23",
         "marshmallow==2.19.2",
         "kmsauth==0.6.0",
